@@ -1,0 +1,88 @@
+body{
+    background-image: url(../photo/bird.jpg);
+    background-repeat: round;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.lo{
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 71%;
+    height: max-content;
+    background-color: #e7a66000;
+    text-indent: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black, -1px -1px 1px 1px #f8fef6;
+}
+.account{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: oblique;
+    line-height: 90px;
+}
+.your-account{
+    font-size: 23px;
+    font-weight: bolder;
+    font-style: oblique;
+    line-height: 30px;
+}
+.for{
+    font-size: 23px;
+    font-weight:bolder;
+    font-style: oblique;
+    line-height:30px;
+}
+input[type="text"]
+{
+    width: 85%;
+    height: 50px;
+    margin: 20px;
+    position: relative;
+    left: -9px;
+    border-radius: 5px;
+    border-color: white;
+    text-transform:lowercase;
+    font-size: 20px;
+}
+input[type="text"]:hover:focus{
+outline: 0px;
+}
+
+input[type="button"]
+,input[type="submit"]{
+    width: 69px;
+    height: 35px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 10px;
+}
+input[type="button"]:hover,
+input[type="submit"]:hover{
+  font-size: 15px;
+ 
+    cursor: pointer;
+   
+}
+.in{
+    display: flex;
+    width: 85%;
+    height: max-content;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: 0px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 95%;
+}

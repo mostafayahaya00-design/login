@@ -1,0 +1,118 @@
+body {
+    background-image: url(../photo/9.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.create {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-image: url(9.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black, -1px -1px 1px 1px #d7d7d7;
+    width: 370px;
+    height: 425px;
+}
+
+.q {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    font-family: cursive;
+    position: relative;
+    top: -25px;
+    line-height: 50px;
+}
+
+.DATA {
+    border: 0px;
+    margin: 0px;
+    height: 120px;
+}
+
+input[name="fn"] {
+    line-height: 23px;
+    position: relative;
+    bottom: 30px;
+    left: 13px;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+input[name="ep"],
+input[type="passworD"] {
+    position: relative;
+    bottom: 30px;
+    left: 13px;
+    top: -23px;
+    width: 336px;
+    height: 28px;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.w {
+    line-height: 10px;
+    color: lemonchiffon;
+    position: relative;
+    left: 11px;
+    margin-top: 3px;
+}
+
+input[type="DAtE"] {
+    position: relative;
+    left: 11px;
+    margin-top: 0px;
+    line-height: 20px;
+    border-radius: 8px;
+}
+
+span {
+    position: relative;
+    left: 11px;
+    color: lemonchiffon;
+    line-height: 40px;
+}
+
+input[type="raDio"],
+.e,
+.r {
+    color: lemonchiffon;
+    position: relative;
+    bottom: -25px;
+    left: -64px;
+}
+
+input[type="submit"] {
+    position: relative;
+    bottom: -57px;
+    left: -15%;
+    border-radius: 6px;
+}
+
+.t {
+    position: relative;
+    bottom: -36px;
+    left: 15%;
+    color: lemonchiffon;
+    line-height: 50px;
+}
+
+a {
+    position: relative;
+    bottom: 16px;
+    left: 56%;
+    color: lemonchiffon;
+    line-height: 20px;
+}

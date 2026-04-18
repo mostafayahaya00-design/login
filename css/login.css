@@ -1,0 +1,180 @@
+ body{
+    background-image: url(../photo/10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	background-position:center;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	filter: saturate(0.7);
+}
+
+.child{
+        width: 250px;
+            height: 295px;
+            background-color: #000000a1;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, 50%);
+            border-radius: 5px;
+            display: grid;
+            justify-items: center;
+            align-content: center;
+            font-size: 39px;
+            font-family: Freestyle Script;
+            font-weight: 610;
+            letter-spacing: 3px;
+			box-shadow:  2px 1px 1px #767575,
+				-2px -2px 1px 1px #c0b8b8;
+      }
+.titlelog{
+		text-shaDow:1px 1px 1px #b6b4b4,-1px -1px 1px #e7e6e6;
+		color: black;
+}
+
+.up{
+
+	display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.a{
+  
+	width:75px;
+	height:1px;
+	background-color:gold;
+}
+.b{
+   
+	color: #000000;
+    line-height: 40px;
+    margin: auto 14px;
+    font-size: 20px;
+    text-transform: uppercase;
+	font-family:auto;
+	text-shadow: none;
+	text-shaDow: 1px 1px 1px #b6b4b4, -1px -1px 1px #e7e6e6;
+	
+}
+.b:hover{
+	cursor:default;
+}
+.c{
+   
+		width:75px;
+	    height:1px;
+		background-color:gold;
+}
+.footr a{
+	font-size:15px;
+	text-decoration:none;
+	line-height:5px;
+	color:#bd9210;
+	font-family: none;
+	letter-spacing: 0px;
+
+}
+.footr a:hover {
+	font-size: 16px;
+	font-family: none;
+}
+.footr{
+	
+	line-height: 5px;
+	height: 17px;
+}
+input[type="text"],
+input[type="passworD"]
+{
+	background-color: #8e8e8e00;
+	border: none;
+	outline: none;
+	borDer-bottom:soliD golD;
+	color:#ffffff;
+}
+::placeholder{
+	color:rgb(255, 250, 250);
+	text-align: left;
+	text-transform:lowercase;
+	
+}
+input[type="submit"]{
+	background-color: #bd921000;
+	color: #bd9210;
+    border: 0px;
+	outline: 0px;
+	text-shaDow: 1px 1px 1px #b6b4b4, -1px -1px 1px #e7e6e6;
+	color: black;
+	font-size: 28px;
+	font-family: Freestyle Script;
+	letter-spacing: 1px;
+	font-weight: bold;
+	line-height: 45px;
+}
+input[type="submit"]:hover
+{
+	cursor:pointer;
+	font-size:29px;
+	border: 0px;
+	outline: 0px;
+}
+
+input:hover::placeholder{
+	color: #ff9900;
+	font-size: 13px;
+	position: relative;
+	bottom: 5px;
+}
+input:focus::placeholder {
+	color: #ff9900;
+	font-size: 13px;
+	position: relative;
+	bottom: 5px;
+}
+.menu{
+	width:100%;
+	overflow:auto;
+	background-image:linear-gradient(to right, #c8b400, #ffc107, #ff9800);
+
+	
+
+}
+.mn{
+	margin:0px;
+    padding:0px;
+	line-height:60px;
+	list-style:none;
+
+	
+}
+.menu li{
+	float:left;
+	width: calccalc((100% - 139px) / 6);
+		margin-left: 2%;
+}
+.menu ul li a{
+	text-decoration:none;
+	width:130px;
+	display:block;
+	text-align:center;
+	letter-spacing:0.5px;
+	color: cornsilk;
+}
+.menu ul li a:hover{
+	color:rgb(0, 0, 0);
+	font-size: 20px;
+}
+.create{
+	color: #ff9900;
+	font-size: 20px;
+	text-decoration: none;
+	width: 163px;
+	text-align: center;
+	font-family: sans-serif;
+	letter-spacing: 0px;
+	line-height: 18px;
+}
+
