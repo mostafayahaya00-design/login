@@ -1,16 +1,15 @@
-body {
-    background-image: url(../photo/9.jpeg);
+body{
+    background-image:url( ../photo/9.jpeg) ;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-.create {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+.create{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
     background-image: url(9.jpeg);
     background-attachment: fixed;
     background-size: cover;
@@ -21,8 +20,7 @@ body {
     width: 370px;
     height: 425px;
 }
-
-.q {
+.q{
     text-align: center;
     font-size: 25px;
     font-weight: bolder;
@@ -32,14 +30,12 @@ body {
     top: -25px;
     line-height: 50px;
 }
-
-.DATA {
+.DATA{
     border: 0px;
     margin: 0px;
     height: 120px;
 }
-
-input[name="fn"] {
+input[name="fn"]{
     line-height: 23px;
     position: relative;
     bottom: 30px;
@@ -47,9 +43,8 @@ input[name="fn"] {
     border-radius: 8px;
     text-transform: capitalize;
 }
-
 input[name="ep"],
-input[type="passworD"] {
+input[type="passworD"]{
     position: relative;
     bottom: 30px;
     left: 13px;
@@ -61,58 +56,122 @@ input[type="passworD"] {
     border-radius: 10px;
     margin-top: 15px;
 }
-
-.w {
+.w{
     line-height: 10px;
     color: lemonchiffon;
     position: relative;
     left: 11px;
     margin-top: 3px;
 }
-
-input[type="DAtE"] {
+input[type="DAtE"]{
     position: relative;
     left: 11px;
     margin-top: 0px;
     line-height: 20px;
     border-radius: 8px;
 }
-
-span {
+span{
     position: relative;
     left: 11px;
     color: lemonchiffon;
     line-height: 40px;
 }
-
 input[type="raDio"],
-.e,
-.r {
+.e,.r{
     color: lemonchiffon;
     position: relative;
     bottom: -25px;
     left: -64px;
 }
-
-input[type="submit"] {
-    position: relative;
-    bottom: -57px;
-    left: -15%;
-    border-radius: 6px;
+input[type="submit"]{
+   display: flex;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
-
-.t {
+.t{
     position: relative;
     bottom: -36px;
     left: 15%;
     color: lemonchiffon;
     line-height: 50px;
 }
-
-a {
+a{
     position: relative;
     bottom: 16px;
     left: 56%;
     color: lemonchiffon;
     line-height: 20px;
+}
+.sub{
+   display: flex;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    margin-top: -50px;
+}
+
+@media (max-width: 400px) {
+    *{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .create {
+        width: 95%;
+        height: max-content;
+    }
+   input[name="fn"] {
+       width: 83%;
+        height: 50px;
+        margin-top: 5px;
+    }
+    input[name="ep"],
+    input[type="passworD"] {
+        width: 83%;
+        height: 50px;
+        margin-top: 5px;
+    }
+    .w{
+        margin-top:7rem;
+    }
+    input[type="DAtE"] {
+        width: 83%;
+        height: 50px;
+    }
+    input[type="submit"] {
+        width: 21%;
+        height: 40px;
+        margin-bottom: 60px;
+        border-radius: 14px;
+    
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .t {
+        color: lemonchiffon;
+        line-height: 50px;
+        width: 83%;
+        height: 50px;
+    }
+    a {
+        color: lemonchiffon;
+        line-height: 20px;
+        width: 83%;
+        height: 50px;
+    }
+    .gender{
+        margin-bottom: 91px;
+        display: flex;
+        align-items: center;
+    }
+    input[type="raDio"], .e, .r {
+    color: lemonchiffon;
+}
 }
