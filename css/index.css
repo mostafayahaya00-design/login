@@ -129,7 +129,7 @@ a {
     margin-top: -50px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) and (min-width:150px) {
     * {
         font-weight: 700;
         font-size: 15px;
@@ -138,6 +138,7 @@ a {
     .create {
         width: 95%;
         height: max-content;
+        position: absolute;
     }
 
     input[name="fn"] {
