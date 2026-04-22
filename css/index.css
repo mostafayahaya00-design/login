@@ -129,7 +129,7 @@ a {
     margin-top: -50px;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 200px) {
     * {
         font-weight: 700;
         font-size: 15px;
