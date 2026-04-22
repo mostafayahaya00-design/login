@@ -129,7 +129,7 @@ a {
     margin-top: -50px;
 }
 
-@media (max-width: 500px) and (min-width:150px) {
+/*@media (max-width: 400px) {
     * {
         font-weight: 700;
         font-size: 15px;
@@ -204,4 +204,4 @@ a {
     .r {
         color: lemonchiffon;
     }
-}
+}*/
